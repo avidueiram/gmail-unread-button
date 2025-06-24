@@ -17,7 +17,6 @@ function insertButton() {
       position: fixed;
       top: 72px;
       transition: box-shadow 80ms linear;
-      z-index: 9999;
     }
     .gmail-unread-button:hover {
       box-shadow: 0 1px 3px 0 rgba(60, 64, 67, .3), 0 4px 8px 3px rgba(60, 64, 67, .15);
