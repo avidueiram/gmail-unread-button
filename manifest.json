@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Gmail Unread Button",
+  "version": "1.0.0",
+  "description": "Injects 'Unread' button into Gmail that redirects to the unread inbox.",
+  "content_scripts": [
+    {
+      "matches": ["https://mail.google.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "permissions": []
+}
